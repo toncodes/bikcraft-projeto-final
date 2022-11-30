@@ -7,6 +7,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
 .header-bg{
   background: #000000;
 }
@@ -79,4 +88,31 @@
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.introducao-bg{
+  background: #000000;
+  color: #ffffff;
+}
+
+.introducao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao-conteudo{
+  align-self: center;
+}
+
+.introducao h1{
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.12;
+}
+
+.introducao p{
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
 }
