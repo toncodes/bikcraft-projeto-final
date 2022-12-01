@@ -16,6 +16,11 @@ img{
   display: block;
 }
 
+.center{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header-bg{
   background: #000000;
 }
@@ -99,6 +104,8 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .introducao-conteudo{
@@ -115,4 +122,26 @@ img{
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
+}
+
+.introducao h1 span{
+  color: #ffbb00;
+  border-radius: 4px;
+}
+
+.introducao a{
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00 , #f2a50c);
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.introducao a:hover{
+  background: linear-gradient(#ffb60d , #e59317);
 }
