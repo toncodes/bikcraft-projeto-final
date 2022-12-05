@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,16 +7,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
   color: inherit;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-.center{
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
+.center {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center2 {
+  max-width: 1400px;
   margin: 0 auto;
 }
