@@ -4,7 +4,7 @@
 
 .header{
   max-width: 1200px;
-  padding: 1rem;
+  padding: 1rem 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -69,4 +69,12 @@
     padding: 8px 12px;
     font-size: 14px;
   }
+
+  .header{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px ;
+  }
+  
+
 }
