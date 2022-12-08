@@ -1,9 +1,12 @@
 /* Global */
+
 @import "./global/header.css";
 @import "./utilidades/componentes.css";
 @import "./global/global.css";
+@import "./global/footer.css";
 
 /* Home */
+
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
@@ -21,3 +24,7 @@
 /* Seguros */
 
 @import "./seguros/seguros.css";
+
+/* Termos */
+
+@import "./termos/termos.css";

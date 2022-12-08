@@ -14,11 +14,11 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
-.botao.secundario{
+.botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
 }
-.botao.secundario:hover{
+.botao.secundario:hover {
   background: var(--cor-9);
 }
 
@@ -39,6 +39,27 @@
 
 .link:hover {
   color: var(--cor-0);
+}
+/*titulo interno*/
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding: 60px 0;
+}
+
+.ttulo p{
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px){
+  .titulo{
+    padding: 40px  20px;
+  }
+
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 600px) {
