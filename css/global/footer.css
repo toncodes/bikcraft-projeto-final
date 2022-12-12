@@ -66,12 +66,6 @@
 @media (max-width: 600px){
   .footer {
     grid-template-columns: 1fr;
-    align-content: center;
-    gap: 60px;
-    padding-left: 0;
-  }
-
-  .footer-contato, .footer-informacoes{
-    padding-left: 170px;
-  }
+    padding-left: 90px;
+   }
 }
