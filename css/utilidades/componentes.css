@@ -78,6 +78,7 @@
     text-transform: lowercase;
     font-weight: 400;
   }
+
 }
 
 @media (max-width: 600px) {
