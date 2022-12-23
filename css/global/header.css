@@ -37,7 +37,7 @@
   position: absolute;
 }
 
-.header-menu a:hover:after{
+.header-menu a:hover:after, .header-menu a.ativo::after {
   width: 100%;  
 }
 
@@ -56,7 +56,11 @@
     background-color: var(--cor-10);
   }
 
-  .header a:after{
+  .header-menu a.ativo{
+    background-color: var(--cor-9);
+  }
+
+  .header a::after{
     display: none;
   }
 }
